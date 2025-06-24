@@ -22,8 +22,7 @@ const allScores = [
     country: "México",
     instruments: "Voz y piano",
     pdfUrl: "/el-olvido-ponce.pdf"
-  },
-
+  }
 ];
 
 export default function Explore() {
