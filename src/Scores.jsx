@@ -55,14 +55,6 @@ export default function Scores() {
       bio: "María Grever (1885–1951) fue una compositora mexicana pionera, autora de más de 800 canciones incluyendo el bolero 'Te quiero dijiste'.",
       pdfUrl: "/te-quiero-dijiste-grever.pdf",
     },
-    {
-      title: "El olvido",
-      composer: "Manuel M. Ponce",
-      country: "México",
-      instruments: "Voz y piano",
-      bio: "Manuel M. Ponce (1882–1948) fue uno de los compositores más importantes del nacionalismo musical mexicano. Su obra integra formas europeas con melodías y estilos tradicionales mexicanos, y su legado incluye canciones, música de cámara, obras para guitarra y piano.",
-      pdfUrl: "/el-olvido-ponce.pdf"
-},
   ];
 
   return (
