@@ -1,30 +1,30 @@
 import React, { useState } from 'react';
 
-const allScores = [
-  {
-    title: "Arrullo",
-    composer: "Blas Galindo",
-    country: "México",
-    instruments: "Voz y piano",
-    pdfUrl: "/arrullo-blas-galindo.pdf"
-  },
-  {
-    title: "Te quiero dijiste",
-    composer: "María Grever",
-    country: "México",
-    instruments: "Voz y piano",
-    pdfUrl: "/te-quiero-dijiste-grever.pdf"
-  },
-  {
-    title: "El olvido",
-    composer: "Manuel M. Ponce",
-    country: "México",
-    instruments: "Voz y piano",
-    pdfUrl: "/el-olvido-ponce.pdf"
-  }
-];
-
 export default function Explore() {
+  const allScores = [
+    {
+      title: "Arrullo",
+      composer: "Blas Galindo",
+      country: "México",
+      instruments: "Voz y piano",
+      pdfUrl: "/arrullo-blas-galindo.pdf"
+    },
+    {
+      title: "Te quiero dijiste",
+      composer: "María Grever",
+      country: "México",
+      instruments: "Voz y piano",
+      pdfUrl: "/te-quiero-dijiste-grever.pdf"
+    },
+    {
+      title: "El olvido",
+      composer: "Manuel M. Ponce",
+      country: "México",
+      instruments: "Voz y piano",
+      pdfUrl: "/el-olvido-ponce.pdf"
+    }
+  ];
+
   const [filtered, setFiltered] = useState([]);
 
   const filterBy = (type, value) => {
@@ -35,7 +35,7 @@ export default function Explore() {
   return (
     <div className="p-6 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-red-700">Explorar por categoría</h1>
-      
+
       <div className="flex flex-wrap gap-4 mb-6">
         <button onClick={() => filterBy('country', 'México')} className="bg-blue-100 px-4 py-2 rounded border">
           🇲🇽 México
