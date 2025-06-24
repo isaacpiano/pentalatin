@@ -16,13 +16,13 @@ const allScores = [
     instruments: "Voz y piano",
     pdfUrl: "/te-quiero-dijiste-grever.pdf"
   },
-    {
+  {
     title: "El olvido",
     composer: "Manuel M. Ponce",
     country: "México",
     instruments: "Voz y piano",
     pdfUrl: "/el-olvido-ponce.pdf"
-  }
+  },
 
 ];
 
