@@ -61,7 +61,7 @@ export default function Scores() {
       country: "México",
       instruments: "Piano",
       bio: "Blas Galindo (1910–1993) fue un compositor y director mexicano, parte del Grupo de los Cuatro. Su obra refleja el nacionalismo musical mexicano.",
-      pdfUrl: "/Blas Galindo - Sombra.pdf",
+      pdfUrl: "/blas galindo-sombra.pdf",
     },
   ];
 
